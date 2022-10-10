@@ -1,0 +1,123 @@
+.education {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.education-title {
+  width: 60%;
+  color: white;
+  font-size: 30px;
+  padding: 20px 0;
+  font-family: "Philosopher", sans-serif;
+}
+
+.education-container {
+  width: 50vw;
+  height: 60vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 20;
+}
+
+.education-box {
+  display: flex;
+  width: 60vw;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 2vw;
+  margin: 1vw;
+  background-color: black;
+}
+
+.education-box .education-logo {
+  width: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1vw;
+  margin: 1vw;
+}
+
+.education-box .education-description {
+  width: 85%;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.education-description br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 45%;
+}
+
+.education-description h1 {
+  font-size: 1.5rem;
+  font-family: "Philosopher", sans-serif;
+}
+
+.education-description h3 {
+  font-size: 0.9rem;
+}
+
+.education-description p {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 769px) {
+  .education {
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .education-title {
+    width: 100%;
+    padding: 0;
+    font-size: 6vw;
+    text-align: center;
+    margin: 2vh;
+  }
+
+  .education-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding: 4vw;
+  }
+
+  .education-box .education-logo {
+    width: 25%;
+    margin-bottom: 3vw;
+  }
+
+  .education-title {
+    font-size: 20px;
+  }
+
+  .education-box .education-description {
+    text-align: left;
+    line-height: 1.2;
+  }
+
+  .education-description h1 {
+    font-size: 3.5vw;
+  }
+
+  .education-description h3 {
+    font-size: 2.5vw;
+  }
+
+  .education-description p {
+    font-size: 2vw;
+  }
+}

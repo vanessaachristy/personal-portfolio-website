@@ -1,0 +1,143 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 10vh;
+}
+
+.projects-title {
+  width: 60%;
+  color: white;
+  font-size: 30px;
+  padding: 20px 0;
+  font-family: "Philosopher", sans-serif;
+}
+
+.project-container {
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-box {
+  width: 25vw;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: relative;
+  margin: 1vw;
+}
+
+.project-box img {
+  width: 100%;
+  border-radius: 1vw;
+  object-fit: contain;
+}
+
+.project-box h1 {
+  font-family: "Philosopher", sans-serif;
+}
+
+.project-box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1vw;
+  opacity: 0;
+  transition: 150ms ease-in-out;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.overlay .overlay-title {
+  height: 50%;
+  text-align: center;
+  padding: 1vw;
+  margin-bottom: 1vw;
+}
+
+.overlay-title h1 {
+  font-size: 2vw;
+}
+.overlay-title h5 {
+  font-size: 1.2vw;
+}
+
+.overlay .overlay-btn {
+  width: 35%;
+  height: 20%;
+  border: 2px solid white;
+  border-radius: 0.5vw;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-box:hover .overlay {
+  opacity: 0.8;
+  transition: 200ms ease-in-out;
+}
+
+.project-box:hover .overlay-btn:hover {
+  border: 2px solid yellow;
+  color: yellow;
+  transition: 350ms ease-in-out;
+  cursor: pointer;
+}
+
+.project-box:hover img {
+  width: 200%;
+}
+
+@media screen and (max-width: 769px) {
+  .projects-title {
+    width: 100%;
+    padding: 0;
+    font-size: 6vw;
+    text-align: center;
+    margin: 2vh;
+  }
+
+  .project-container {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-box {
+    width: 70vw;
+    border-radius: 25px;
+    margin: 2vw;
+  }
+
+  .project-box:hover .overlay-title h1 {
+    font-size: 5vw;
+  }
+
+  .project-box:hover .overlay-title h5 {
+    font-size: 3vw;
+  }
+
+  .project-modal {
+    max-width: 70vw;
+    height: auto;
+    position: absolute;
+  }
+}

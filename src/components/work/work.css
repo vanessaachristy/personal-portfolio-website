@@ -1,0 +1,124 @@
+.work {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Philosopher", sans-serif;
+}
+
+.work-title {
+  width: 60%;
+  color: white;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.work-container {
+  width: 60vw;
+  height: 60vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 20;
+  font-family: "Philosopher", sans-serif;
+}
+
+.work-box {
+  display: flex;
+  width: 60vw;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 2vw;
+  margin: 1vw;
+  background-color: black;
+}
+
+.work-logo {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1vw;
+  margin: 1vw;
+}
+
+.work-logo img {
+  border-radius: 20px;
+}
+.work-description {
+  width: 85%;
+  line-height: 1.4;
+}
+
+.work-description br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 45%;
+}
+
+.work-description h1 {
+  font-size: 1.5rem;
+}
+
+.work-description h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.work-description p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 769px) {
+  .work {
+    height: 40vh;
+  }
+
+  .work-title {
+    width: 100%;
+    padding: 0;
+    font-size: 6vw;
+    text-align: center;
+    margin: 2vh;
+  }
+
+  .work-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding: 4vw;
+  }
+
+  .work-box .work-logo {
+    width: 25%;
+    margin-bottom: 3vw;
+  }
+
+  .work-title {
+    font-size: 20px;
+  }
+
+  .work-box .work-description {
+    text-align: left;
+    line-height: 1.2;
+  }
+
+  .work-description h1 {
+    font-size: 3.5vw;
+  }
+
+  .work-description h3 {
+    font-size: 2.5vw;
+  }
+
+  .work-description p {
+    font-size: 2vw;
+  }
+}

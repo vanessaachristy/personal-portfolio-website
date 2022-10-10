@@ -1,0 +1,82 @@
+.landing {
+  height: 100vh;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+}
+
+.landing-back {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: relative;
+}
+
+.ityped-cursor {
+  animation: blink 0.3s infinite;
+}
+
+.landing-back h1 {
+  font-size: 15vw;
+}
+
+.landing-front {
+  top: 2vh;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: fixed;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.pen-block {
+  position: relative;
+  top: 40vh;
+  width: inherit;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pen {
+  position: absolute;
+}
+
+.pen-1 {
+  height: 300%;
+  transform: translate(0px, 0px);
+  transition: transform 70ms ease-in-out;
+  cursor: pointer;
+}
+
+.pen-2 {
+  height: 300%;
+  transform: translate(0px, 0px);
+  transition: transform 70ms ease-in-out;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  .pen-1 {
+    height: 150%;
+  }
+
+  .pen-2 {
+    height: 150%;
+  }
+
+  .landing-back {
+    font-size: 20vw;
+  }
+}
