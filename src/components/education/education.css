@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 769px) {
   .education {
-    height: auto;
+    height: 120vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
