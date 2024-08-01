@@ -33,12 +33,7 @@ export default function About() {
         </div>
         <div className="about-description">
           <h2>
-            I'm a peneultimate undergraduate student majoring in Information
-            Engineering and Media at Nanyang Technological University. I'm a
-            very determined, easy-going, and hard-working person who gains the
-            most satisfaction at work when I am faced with new challenges.
-            Currently, I am really interested in the software development and
-            UI/UX design field.
+            As a recent graduate with a degree in Information Engineering and Media from Nanyang Technological University, I am a determined, easy-going, and hard-working individual who thrives on facing new challenges. My passion lies in fullstack development and UI/UX design, where I continually seek opportunities to expand my skills and knowledge. With a solid foundation in both front-end and back-end technologies and interface design, I am eager to contribute to innovative projects and collaborate with talented teams. I find the greatest satisfaction in problem-solving and creating efficient, user-friendly solutions. Let's connect and explore how we can work together to drive success!
           </h2>
         </div>
         <div className="about-socialmedia">
@@ -56,7 +51,7 @@ export default function About() {
           </a>
           <Button
             className="resume-btn"
-            href="https://drive.google.com/file/d/1CCrf2jbHzHGmfyglT7xfYnD2x9TRCaXb/view?usp=sharing"
+            href="https://drive.google.com/drive/folders/12SbUhCm48SBiJnytK6Z0cLXXF10cODX8?usp=drive_link"
             target=" blank"
           >
             Resume

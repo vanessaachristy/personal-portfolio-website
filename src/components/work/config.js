@@ -1,13 +1,12 @@
 export const workExperience = [
-     {
+    {
         name: "Frontend Engineer Intern, TikTok",
-        period: "Jan 2023 - Present",
+        period: "Jan 2023 - Nov 2023",
         department: "Global E-Commerce (Commercial Platform)",
         jobscope: [
-            "Designed and developed efficient, reusable micro-frontend components for the TikTok Shop Seller Centre PC & App Data Compass platform using React, Typescript, Rematch",
-            "Collaborated with Product Management, Product Design, and Software Engineering teams in the creation of high-performance, innovative e-commerce solutions",
-            "Assisted internal teams in seamlessly incorporating internationalization and localization SDK toolsets, enhancing engineering efficiency across the board",
-            "Contributed to enhancing project and codebase quality, optimizing performance, addressed security matters, fine-tuned checking processes, and managed the migration of libraries for improved outcomes"
+            "Implemented Data Overview, Live Diagnosis, and Shopping Center Analytics features in the TikTok Shop Seller  Center Data Compass App using React, Typescript, and Rematch, resulting in a 40% increase in user retention rate through enhanced cross-platform compatibility.",
+            "Developed and integrated internationalization and localization SDK toolsets across the TikTok Shop Seller Center Data Compass PC and App modules, establishing standardized date, time, and number formats",
+            "Improved project workflow operations by resolving numerous bugs, errors, and security risks, leading to enhanced code efficiency and reduced package deprecation warnings"
         ],
         logo: 'assets/tiktok.png'
     },
@@ -16,11 +15,9 @@ export const workExperience = [
         period: "May 2022 - Aug 2022",
         department: "Group Enterprise 5G/IOT Product House",
         jobscope: [
-            "Developed the UI for a Credential Management Web Application using Vue.js",
-            "Build the REST APIs for the services using Spring Boot",
-            "Create unit testing for the REST services using JUnit"
-        ],
+            "Designed and developed a full-stack Credential Management Platform for Group Enterprise 5G/IOT Product House, utilizing Vue.js, Spring Boot, and MongoDB. Responsibilities included interface design, API endpoint development, unit test case creation with JUnit, and database schema design",
+            "Utilize hashing and encryption methods, including symmetric AES and asymmetric encryption, to enhance the security of credential data transmission, mitigating the risk of eavesdropping attacks "],
         logo: 'assets/singtel.png'
     },
-    
+
 ]
