@@ -83,6 +83,7 @@
   transition: 250ms ease-in-out;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   z-index: 5;
+  margin-right: 6px;
 }
 
 .about-socialmedia .resume-btn:hover {
@@ -95,7 +96,7 @@
 @media screen and (max-width: 769px) {
   .about-container {
     width: 70vw;
-    height: 50vh;
+    height: 80vh;
     background-color: black;
     color: white;
     border: 2px solid white;

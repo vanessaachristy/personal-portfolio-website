@@ -1,6 +1,6 @@
 .work {
   display: flex;
-  height: 100vh;
+  height: max-content;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
 
 .work-container {
   width: 60vw;
-  height: 60vh;
+  height: max-content;
   color: white;
   display: flex;
   flex-direction: column;

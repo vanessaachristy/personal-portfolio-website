@@ -28,14 +28,14 @@ export default function Education() {
               Bachelor of Information Engineering and Media <i>(2020-2024)</i>
             </h3>
             <br />
-            <h3>Expected Honours (Distinction)</h3>
+            <h3>4.5/5.0 Honours (Highest Distinction)</h3>
             <br />
             <h3>Relevant courses:</h3>
             <p>
               Object-Oriented Programming, Data Structures and Algorithm, Intro
               to Data Science & Artificial Intelligence, Software Engineering,
               Computer Communication, Operating Systems, Intro to Design &
-              Project, Design & Innovation Project
+              Project, Design & Innovation Project, Web Application Design, Database System
             </p>
             <br />
             <h3>Achievement:</h3>

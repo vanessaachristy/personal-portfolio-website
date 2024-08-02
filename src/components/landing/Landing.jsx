@@ -4,7 +4,6 @@ import "./landing.css";
 import coffeetop from "./coffeetop.PNG";
 import coffeebottom from "./coffeebottom.PNG";
 import { useEffect } from "react";
-import { Button } from "react-bootstrap";
 import { init } from "ityped";
 
 export default function Landing() {
@@ -34,7 +33,7 @@ export default function Landing() {
     window.addEventListener("scroll", changeStyle);
     init(textRef.current, {
       showCursor: true,
-      strings: ["Frontend Developer", "UI/UX Designer", "Daydreamer"],
+      strings: ["Aspiring Software Engineer", "UI/UX Designer", "Dreamer"],
     });
   });
 

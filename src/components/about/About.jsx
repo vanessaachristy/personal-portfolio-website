@@ -42,7 +42,7 @@ export default function About() {
           </a>
           <a
             href="https://www.linkedin.com/in/vanessa-christy/"
-            target="_blank"
+            target="blank"
           >
             <AiFillLinkedin />
           </a>
@@ -52,10 +52,15 @@ export default function About() {
           <Button
             className="resume-btn"
             href="https://drive.google.com/drive/folders/12SbUhCm48SBiJnytK6Z0cLXXF10cODX8?usp=drive_link"
-            target=" blank"
+            target="blank"
           >
             Resume
           </Button>
+          <Button
+          className="resume-btn"
+          href="https://drive.google.com/drive/folders/1QTkR85unyAnlI-tRCIcBgS6Dh6Doe2sT?usp=sharing"
+          target="blank"
+          >Design</Button>
         </div>
       </div>
     </div>

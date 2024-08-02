@@ -1,9 +1,10 @@
 .education {
   display: flex;
-  height: 100vh;
+  height: max-content;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 24px;
 }
 
 .education-title {
@@ -16,7 +17,7 @@
 
 .education-container {
   width: 50vw;
-  height: 60vh;
+  height: max-content;
   color: white;
   display: flex;
   flex-direction: column;
@@ -73,7 +74,7 @@
 
 @media screen and (max-width: 769px) {
   .education {
-    height: 120vh;
+    height: max-content;
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
