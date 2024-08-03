@@ -1,6 +1,17 @@
 export const projectData = [
   {
     id: 1,
+    title: "MyMedtrace",
+    date: "April 2024",
+    img: "mymedtrace.png",
+    gif: "mymedtrace.gif",
+    tools: "React, Solidity, Express.Js, Flask, Ganache, MongoDB",
+    description: "MyMedtrace is a blockchain-based Electronic Health Record (EHR) management system with the goal of providing a secure, scalable, and interoperable platform that leverages blockchain for data integrity and smart contracts for privacy and access control. This project is created as my Final Year Project in Nanyang Technological University.",
+    web: "https://drive.google.com/file/d/1_2VGLqTkksr-XKVA6c50FebMrKdH4BUM/view?usp=sharing",
+    github: "https://github.com/vanessaachristy/FYP-Blockchain-MyMedtrace"
+  },
+  {
+    id: 2,
     title: "Penta",
     date: "Mar 2022",
     img: "assets/penta.png",
@@ -12,7 +23,7 @@ export const projectData = [
     github: "",
   },
   {
-    id: 2,
+    id: 3,
     title: "SuperGuess",
     date: "Mar 2022",
     img: "assets/superguess.png",
@@ -24,7 +35,7 @@ export const projectData = [
     github: "",
   },
   {
-    id: 3,
+    id: 4,
     title: "The Abandoned",
     date: "Feb 2022",
     img: "assets/theabandoned.png",
@@ -36,7 +47,7 @@ export const projectData = [
     github: "",
   },
   {
-    id: 4,
+    id: 5,
     title: "FitFriend",
     date: "Aug 2021",
     img: "assets/fitfriend.png",
@@ -48,7 +59,7 @@ export const projectData = [
     github: "",
   },
   {
-    id: 5,
+    id: 6,
     title: "GTD Unsolved",
     date: "Nov 2021",
     img: "assets/gtdunsolved.png",
@@ -60,7 +71,7 @@ export const projectData = [
     github: "",
   },
   {
-    id: 6,
+    id: 7,
     title: "Sudoku Game",
     date: "Mar 2021",
     img: "assets/sudoku.png",
