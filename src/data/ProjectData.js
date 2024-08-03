@@ -3,11 +3,11 @@ export const projectData = [
     id: 1,
     title: "MyMedtrace",
     date: "April 2024",
-    img: "mymedtrace.png",
-    gif: "mymedtrace.gif",
+    img: "assets/mymedtrace.png",
+    gif: "assets/mymedtrace.gif",
     tools: "React, Solidity, Express.Js, Flask, Ganache, MongoDB",
     description: "MyMedtrace is a blockchain-based Electronic Health Record (EHR) management system with the goal of providing a secure, scalable, and interoperable platform that leverages blockchain for data integrity and smart contracts for privacy and access control. This project is created as my Final Year Project in Nanyang Technological University.",
-    web: "https://drive.google.com/file/d/1_2VGLqTkksr-XKVA6c50FebMrKdH4BUM/view?usp=sharing",
+    web: "https://drive.google.com/file/d/1MniM5DH-T7xsRq7c9SvTQ0bp1RYNpjzm/view?usp=sharing",
     github: "https://github.com/vanessaachristy/FYP-Blockchain-MyMedtrace"
   },
   {
